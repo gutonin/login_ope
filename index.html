@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Autenticação - Morpheus CI</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="login.js" defer></script>
+</head>
+<body>
+    <div>
+        <form id="login_form">
+            <label>E-Mail:</label>
+            <br/>
+            <input id="usuario" name = "usuario" type = "text">
+            <br/>
+            <br/>
+            <label>Senha: </label>
+            <br/>
+             <input id="senha" name="senha" type = "password">
+            <br/>
+            <br/>
+            <input type="button" value="Entrar" id="login_button" onclick="login()">
+            <input type="reset" value="Limpar">
+        </form>
+    </div>   
+</body>
+</html>
